@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a.nut2.btn.btn-info {
+    width: 50%;
+    /* height: 57px; */
+}
+
+.nut_button {
+    margin: 40px 0px 0px 80px;
+    /* padding: 20px; */
+}
+
+.logovamenu.biendoi {
+    background-color: #f1f9fc;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    transition: 1s;
+}
+/*.logovamenu.biendoi img.logo{
+    background-image: url(../img/1658957 (1).png);
+    background-size: cover;
+
+}*/
+
+.info.col-sm-6 {
+    margin-top: 13%;
+}
+
+a.creative {
+    font-size: 7rem;
+    color: #665b2c;
+}
+
+
+a.moon {
+    font-size: 7rem;
+    color: black;
+}
+
+
+
+
+
+a.music {
+    font-size: 7rem;
+    color: blueviolet;
+}
+
+.btn_nut a {
+    width: 25%;
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    height: 10%;
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 21px;
+    transition: 0.4s;
+     animation: chulen 2s forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
+}
+@-webkit-keyframes chulen {
+    0% {
+        transform: translateY(800px);
+        opacity: 0;
+    }
+    100% {
+       transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+a.nutbam.btn-danger {
+    text-decoration: none;
+}
+
+.small p {
+    position: absolute;
+    top: 50%;
+    font-size: 30px;
+    font-family: "roboto";
+    color: white;
+    width: 35%;
+    left: 10%;
+    text-align: center;
+    transition: 0.4s;
+    animation: chusang 2s forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
+}
+@-webkit-keyframes chusang {
+    0% {
+        transform: translateX(-800px);
+        opacity: 0;
+    }
+    100% {
+       transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+
+.text h2 {
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    left: 20%;
+    top: 40%;
+    font-family: 'Merriweather', serif;
+    transition: 0.4s;
+     animation: chuxuong 2s forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
+
+}
+@-webkit-keyframes chuxuong {
+    0% {
+        transform: translateY(-800px);
+        opacity: 0;
+    }
+    100% {
+       transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+img.bg_img {
+    position: absolute;
+    bottom: 25%;
+    width: 25%;
+    right: 10%;
+    transition: 0.4s;
+    animation: cogai 2s forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
+}
+@-webkit-keyframes cogai {
+    0% {
+        transform: translateX(800px);
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+a.nav-link {
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 15px;
+    color: black !important;
+}
+
+img.logo {
+    width: 60%;
+    display: block;
+    margin-top: 10px;
+}
+
+.logovamenu {
+     /*background: white; */
+     /* height: 90px; */
+     /*padding-top: 50px;*/
+     transition: 1s;
+}
+
+.header {
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-image: url(../img/anh.jpg);
+    position: relative;
+}
+.content1 {
+    background-color: white;
+    height: 500px;
+}
+.cachra {
+    margin-top: 40px;
+}
+.content2{
+    background-image: url(../img/hinh-nen-full-hd-1080-ngay-nang-dep_022857341.jpg);
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+.info:hover .bg_blue {
+    opacity: 1;
+}
+
+.info:hover .deltai p {
+    transform: translateY(-10px);
+}
+
+.info:hover .title h2 {
+  transform: translateY(10px);
+}
+
+.deltai p {
+    position: absolute;
+    z-index: 4;
+    top: 45%;
+    width: 55%;
+    text-align: center;
+    padding: 0px 0px 0px 15px;
+    color: white;
+    margin-left: 50px;
+    transition: 0.4s;
+    font-family: monospace;
+}
+
+.title h2 {
+    position: absolute;
+    top: 20px;
+    z-index: 3;
+    color: white;
+    font-family: -webkit-body;
+    top: 25%;
+    width: 75%;
+    text-align: center;
+    font-size: 30px;
+    transition: 0.4s;
+}
+
+.thanh1, .thanh2 {
+    width: 350px;
+    height: 1px;
+    position: absolute;
+    background: white;
+    top: 140px;
+    left: 50px;
+    z-index: 2;
+    transition: 0.4s;
+    transform: rotate(0deg);
+}
+
+.bg_blue {
+    position: absolute;
+    width: 420px;
+    height: 280px;
+    background: #00314b4f;
+    top: 0px;
+    /* left: 15px; */
+    z-index: 1;
+    transition: 0.4s;
+    opacity: 0;
+}
+
+/*img.layer1{
+    width: 90%;
+}*/
+.content {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 18px;
+}
+.wrapper {
+    width: 960px;
+    margin:0px auto;
+}
+.zoom {
+    width: 420px;
+    height: 280px;
+    overflow: hidden;
+}
+.zoom img {
+    max-width: 100%;
+    height: auto;
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+.info:hover img.layer1 {
+    transform: scale(1);
+}
+.info:hover .thanh1 {
+    transform: rotate(45deg);
+
+}
+.info:hover .thanh2 {
+    transform: rotate(-45deg);
+}
+
+/*Css footer*/
+
+.openning1 .trai {
+    background: #151515;
+    float: left;
+    transform: translateY(9px);
+    padding-right: 10px;
+}
+
+.openning1 .phai.float-xs-right {
+    background: #151515;
+    transform: translateY(9px);
+    padding-left: 7px;
+}
+
+.openning1 {
+    border-bottom: 1px dotted gray;
+    height: 28px;
+    margin-bottom: 13px;
+    margin-top: -8px;
+}
+
+.cotf3 {padding-left: 90px;}
+
+.cotf2 ul li a,.cotf3 ul li a {
+    color: gray;
+    font-size: 14px;
+    font-family: roboto slab;
+    color: #888;
+    line-height: 28px;
+    transition: 0.4s;
+}
+
+.cotf2 ul li a:hover,.cotf3 ul li a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.cotf2 ul,.cotf3 ul {
+    list-style: none;
+    margin: 0;
+}
+
+h2.tdft {
+    font-size: 14px;
+    color: #ccc;
+    font-family: roboto slab;
+    position: relative;
+    margin-bottom: 38px;
+}
+
+h2.tdft:after {content: "";display: block;width: 32px;height: 1px;background: #feb518;top: 21px;position: absolute;}
+
+.motdong {
+    overflow: hidden;
+    padding: 3px 0;
+}
+
+.cotf1 i.fa {
+    padding-right: 20px;
+    float: left;
+    padding-top: 6px;
+    color: #ababab;
+    font-size: 16px;
+}
+
+.cotf1 i.fa.fa-paper-plane-o {
+    padding-bottom: 23px;
+}
+
+.cotf1 p {
+    padding-top: 17px;
+}
+
+.footertop {
+    background: #151515;
+    color: white;
+    line-height: 24px;
+    font-size: 14px;
+    color: #888;
+    padding-top: 113px;
+    padding-bottom: 100px;
+}
+
+.footerbottom{
+    line-height: 91px;
+    height: 91px;
+    color:#999;
+    font-size: 13px;
+    background:#111;
+}
+.content3{
+    background-image: url(../img/hinh-nen-full-hd-1080-chu-ca-3d-cuc-dep_022855875.jpg);
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
