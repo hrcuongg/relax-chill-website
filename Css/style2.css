@@ -1,0 +1,57 @@
+body{
+    background-image: url('https://media.giphy.com/media/NU9hqIw9vN0fm/giphy.gif');
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+#music-page {
+    background-color: rgba(255, 255, 255, 0.548);
+    width: 80%;
+    height: 500px;
+    display:flex;
+    align-items: center; 
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 1rem;
+    min-width: 1000px
+}
+
+#form{
+    width:100%;
+    display:flex;
+    min-width: 1000px;
+    justify-content: space-around;
+    
+}
+
+.content{
+    display: flex;
+    flex-flow: column;
+    align-items: center;    
+    width:30%;
+}
+
+.avatar{
+    width: 300px;
+    height: 300px;
+    padding-top: 20px;
+    border-radius: 3rem;
+}
+
+audio:focus{
+    outline: none;
+}
+/* #background{
+    background-image: url('https://media.giphy.com/media/NU9hqIw9vN0fm/giphy.gif');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    height: 1000px;
+
+} */
+
+
+
