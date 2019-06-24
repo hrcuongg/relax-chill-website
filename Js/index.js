@@ -10,7 +10,6 @@ $(function() {
 			$('.logovamenu').removeClass('biendoi');
 		}
 	});;
-<<<<<<< HEAD
 	$('.back-top').on('click', function(event) {
 		event.preventDefault();
 		$('html,body').animate({scrollTop: 0}, 1000);
@@ -37,6 +36,4 @@ $(function() {
 		/* Act on the event */
 	});;
 }); 
-=======
-});
->>>>>>> c6d7aeddc7bece8d93be1f25f04dca24b4c296f1
+new WOW().init();
